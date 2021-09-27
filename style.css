@@ -1,0 +1,157 @@
+* {
+  box-sizing: border-box;
+}
+
+p {
+  color: #e00a00;
+}
+
+div {
+  display: block;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f1f5f8;
+  font-family: 'Zilla Slab', serif;
+}
+
+h2 {
+  font-family: 'Great Vibes', cursive;
+  font-size: 3rem;
+  text-align: center;
+  color: #ff6a23;
+}
+.menu {
+  margin-top: 20px;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px 0;
+}
+.btn-item {
+  margin-left: 15px;
+}
+
+.photo {
+  width: 30%;
+  height: 175px;
+  object-fit: cover;
+  border: 0.25rem solid black;
+  border-radius: 10px;
+}
+.menu-items {
+  display: flex;
+  margin: 20px 0;
+}
+.menu-info {
+  margin-left: 20px;
+  width: 100%;
+}
+.grid-title {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid black;
+  width: 100%;
+}
+
+h3 {
+  color: #e00a00;
+}
+h4 {
+  color: #e00a00;
+}
+
+.menu-text {
+  padding-top: 20px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(500px, 2fr));
+  grid-gap: 2rem;
+  padding: 30px;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  margin-left: 5px;
+  margin-top: 20px;
+}
+
+.grid-img img {
+  border-radius: 2rem;
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+  margin-top: 0;
+  transition: border 1s;
+  margin-right: 1rem;
+  border: 2px solid;
+}
+
+.grid-bar {
+  border-top: 3px solid;
+}
+
+.grid-description {
+  color: black;
+  display: flex;
+  width: 100%;
+}
+
+.grid-item {
+  display: flex;
+  margin-top: 0;
+}
+
+.filter-button {
+  width: 50px;
+  height: 50px;
+  padding: 20px;
+}
+ul {
+  list-style-type: none;
+}
+
+.tabs {
+  padding: 20px;
+  border-bottom: 1px solid #ebedec;
+}
+
+.tabs ul {
+  display: flex;
+  justify-content: center;
+}
+
+.tabs ul li {
+  width: 135px;
+  text-align: center;
+  background: #e9ecf1;
+  padding: 13px 15px;
+  border-right: 1px solid #c1c4c9;
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+.tabs ul li:first-child {
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+}
+
+.tabs ul li:last-child {
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  border-right: 0;
+}
+.tabs ul li:hover,
+.tabs ul li.active {
+  background: #ff6a23;
+  color: #fff;
+}
+
+.grid-response {
+  width: 100%;
+}
